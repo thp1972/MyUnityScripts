@@ -5,7 +5,7 @@ If I'll have time, here I put many useful scripts for the amazing **Unity** edit
 ## Features
 - You can choose a **separator char** (-, * or _);
 - You can choose **alignment** (left, center or right);
-- The game object separator **adapts** to the Hierarchy window size (width) 
+- The game object separator **adapts** to the Hierarchy window size (width).
 ## Usage
 - Put the script into **Editor** folder;
 - Open the GUI window hitting **ALT + SHIFT + s** or activating the menu **GameObject > Create Separator...**;
