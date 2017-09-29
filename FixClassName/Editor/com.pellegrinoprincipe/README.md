@@ -1,14 +1,6 @@
-# MyUnityScripts
-If I'll have time, here I put many useful scripts for the amazing **Unity** editor :)
 ## Contents
-- **GameObjectSeparators**. Here, there is the script **GOSeparators.cs** that generates a menu item *GameObject > Create Separator...*. When used it creates a separator/divider between game objects in the Hierarchy window. This was inspired from a [tip](https://twitter.com/CiroContns/status/901932711161589765) by [Ciro Continisio](https://twitter.com/CiroContns).
-## Features
-- You can choose a **separator char** (-, * or _);
-- You can choose **alignment** (left, center or right);
-- The game object separator **adapts** to the Hierarchy window size (width).
+- **FixClassName**. The script **FixClassName.cs** generates a menu item *Assets > Fix Class Name...*. When used on a script file it automatically rename the relative class name. This is useful because if we rename a script file the relative class name is not automatically renamed. So, if we try to attach the script on a game object Unity will raise the following message *"Can't add script component ... because the script class cannot be found. Make sure that there are no compile errors and that **the file name and class name match**"*.
 ## Usage
 - Put the script into **Editor** folder;
-- Open the GUI window hitting **ALT + SHIFT + s** or activating the menu **GameObject > Create Separator...**;
-- Insert separator name, char and alignment;
-- Hit OK or Enter key to confirm and generate the separator (hit Cancel or ESC key to dismiss).
+- Select the script file and hit **ALT + SHIFT + f** or open the menu **Asset > Fix Class Name...** (you can also use the contextual menu item into the Project window).
 
