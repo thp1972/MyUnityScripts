@@ -1,5 +1,6 @@
 # MyUnityScripts
-If I'll have time, here I put many useful scripts for the amazing **Unity** editor :)
+Some scripts, I hope useful, for the **Unity** Editor.
 ## Contents
 - **GameObjectSeparators**. 
 - **FixClassName**.
+- **SceneSelector**.
