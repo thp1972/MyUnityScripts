@@ -33,7 +33,7 @@ namespace com.pellegrinoprincipe
         int hierOffset = 30; // MAGIC NUMBER :)
 
         // hotkey to activate the window: ALT + SHIFT + s 
-        [MenuItem("GameObject/Create Separator... &#s")]
+        [MenuItem("GameObject/Create Separator... &#s", false, 0)]
         public static void ShowWindow()
         {
             int startX = 500, startY = 200;
@@ -53,16 +53,17 @@ namespace com.pellegrinoprincipe
 
         void CreateTheUI()
         {
+            GUILayout.BeginArea(new Rect(5, 5, 380, 100), EditorStyles.helpBox);
+
             // input field
             GUI.SetNextControlName("txtSep");
-            GUILayout.BeginArea(new Rect(5, 5, 380, 100), EditorStyles.helpBox);
             GUILayout.BeginHorizontal();
             GUILayout.Label("Separator name: ");
             separatorName = GUILayout.TextField(separatorName, 50, GUILayout.Width(236));
-            GUILayout.EndHorizontal();
-
             EditorGUI.FocusTextInControl("txtSep");
-
+            
+            GUILayout.EndHorizontal();
+            
             // radio button - separator chars
             GUILayout.BeginHorizontal();
             GUILayout.Label("Separator char: ", GUILayout.Width(130));
