@@ -7,7 +7,7 @@
 - You can make an update of all separators if the the Hierarchy window size change.
 ## Usage
 - Put the script into **Editor** folder;
-- Open the GUI window hitting **SHIFT + s** or activating the menu **COM.PELLEGRINOPRINCIPE.TOOLS > Separators > Create Separator...**;
+- Open the GUI window hitting **SHIFT + C** or activating the menu **COM.PELLEGRINOPRINCIPE.TOOLS > Separators > Create Separator...**;
 - Insert separator name, char and alignment;
 - Hit OK or Enter key to confirm and generate the separator (hit Cancel or ESC key to dismiss);
 - Hit **SHIFT + u** to perform a batch update of all separators into Hierarchy window or activating the menu **COM.PELLEGRINOPRINCIPE.TOOLS > Separators > Update Separators**.
