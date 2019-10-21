@@ -1,4 +1,4 @@
-﻿// GOSeparators V 0.2#11022018
+﻿// GOSeparators V 0.3#21102019
 // By Pellegrino ~thp~ Principe
 // A little script to create and update game objects ***separators*** in the Hierarchy window
 
@@ -32,7 +32,7 @@ namespace com.pellegrinoprincipe
 
         // the text in the Hierarchy window starts 30 pixel from the left border
         // could this in the future change? Maybe...
-        int hierOffset = 30; // MAGIC NUMBER :)
+        int hierOffset = 52; // MAGIC NUMBER :)
 
         static GOSeparators Instance;
 
@@ -145,7 +145,7 @@ namespace com.pellegrinoprincipe
 
         float GetHierarchyWindowWidth()
         {
-            EditorApplication.ExecuteMenuItem("Window/Hierarchy");
+            EditorApplication.ExecuteMenuItem("Window/General/Hierarchy");
             EditorWindow window = EditorWindow.focusedWindow;
             float hierWidth = window.position.width - hierOffset;
             return hierWidth;
